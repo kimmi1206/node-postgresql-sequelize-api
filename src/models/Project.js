@@ -3,7 +3,7 @@ import { sequelize } from '../database/database.js';
 import { Task } from './Task.js';
 
 export const Project = sequelize.define(
-  'project',
+  'projects',
   {
     id: {
       type: DataTypes.INTEGER,
